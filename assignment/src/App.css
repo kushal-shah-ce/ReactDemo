@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+#pointer:hover {
+  cursor: pointer;
+  background-color:lightgoldenrodyellow;
+}
+
+.DataListcustom{
+  overflow:auto;
+  width:300px;
+  height: 300px;
+  margin: auto;
+}
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+.custom .search{
+  color:blue;
+}
+
+.add {
+  padding: 15px 10px 10px 10px;
+  padding-left: 5px;
+  width: 305px;
+  border: 1px solid #f5f5f5;
+  font-size: 13px;
+  color: gray;
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+}
+
