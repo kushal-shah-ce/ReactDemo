@@ -11,6 +11,7 @@ export function DemoClass(props) {
       || val.name.toLowerCase().includes(props.input.toLowerCase())
       || val.address.toLowerCase().includes(props.input.toLowerCase())
       || val.pincode.toLowerCase().includes(props.input.toLowerCase()))
+      || val.items.toString().toLowerCase().includes(props.input.toLowerCase())
       return val
     })
     
