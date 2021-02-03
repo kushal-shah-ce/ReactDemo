@@ -15,7 +15,9 @@ function App() {
     fetch(url)
     .then(response => response.json())
     .then(res=>setData(res)) 
-  }, [input])
+    .catch(function() {
+      console.log("something went wrong please check internet connection");
+  })}, [input])
  
   return (
     <div className="App">
